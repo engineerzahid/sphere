@@ -2,7 +2,6 @@
 @section('subhead')
     <title>Home - Sphere</title>
 @endsection
-
 @section('subcontent')
     <link rel="stylesheet" href="{{ asset('dist/css/home.css') }}" />
     <section class="u-align-center u-clearfix u-image u-section-1" id="carousel_40da" data-image-width="1980" data-image-height="1320">
@@ -11,8 +10,9 @@
                 <div class="u-layout-row">
                     <div class="u-align-left u-container-style u-layout-cell u-size-24 u-layout-cell-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0">
                         <div class="u-container-layout u-container-layout-1">
-                            <h1 class="u-text u-text-1"><b>WE<span style="font-weight: 100;"></span> ARE DOERS, CREATORS AND ARTIST AND WE SWIM AGAINST THE TIDE TO CREATE SOLUTIONS FOR YOUR BUSINESS</b>
+                            <h1 class="u-text u-text-1"><b>YOUR<span style="font-weight: 100;"></span> SOLUTION IN A SINGLE PLATFORM</b>
                             </h1>
+                            <p><b>SPHERE is developed to tailored solution that contribute to innovate and manage work related in a professional way and meet your business goals.</b></p>
                             <a href="https://nicepage.com/static-site-generator" class="u-active-black u-align-center u-black u-border-2 u-border-active-custom-color-1 u-border-black u-border-hover-custom-color-4 u-btn u-btn-round u-button-style u-hover-custom-color-4 u-radius-10 u-text-active-white u-text-hover-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">contact Us</a>
                         </div>
                     </div>
@@ -27,9 +27,34 @@
                 <div class="u-align-left u-border-7 u-border-custom-color-4 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
                     <div class="u-container-layout u-similar-container u-container-layout-3">
                         <h4 class="u-custom-font u-font-roboto-condensed u-text u-text-2">In Collaboration with :</h4>
-                        <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/ri.jpg')}}" alt="" data-image-width="259" data-image-height="194">
-                        <!-- <img class="u-image u-image-contain u-image-default u-image-3" src="{{ asset('dist/images/imttech.jpg')}}" alt="" data-image-width="300" data-image-height="200"> -->
-                        <img class="u-image u-image-contain u-image-default u-image-3" src="{{ asset('dist/images/bentley-removebg-preview.png')}}" alt="" data-image-width="300" data-image-height="200">
+
+
+                           <div class="main-row">
+                               <div class="main-row-4">
+                                   <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/ri.jpg')}}" alt="" data-image-width="259" data-image-height="194">
+                               </div>
+                               <div class="main-row-4">
+                                       <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/bentley-removebg-preview.png')}}" alt="" data-image-width="259" data-image-height="194">
+                                   </div>
+                               <div class="main-row-4">
+                                           <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/rdm-removebg-preview.png')}}" alt="" data-image-width="259" data-image-height="194">
+                                       </div>
+                               <div class="main-row-4">
+                                   <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/autodesk-removebg-preview-150x150.png')}}" alt="" data-image-width="259" data-image-height="194">
+                               </div>
+
+                           </div>
+                        <div class="main-row">
+                            <div class="main-row-4">
+                                <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/microsoft-removebg-preview.png')}}" alt="" data-image-width="259" data-image-height="194">
+                            </div>
+                            <div class="main-row-4">
+                                <img class="u-image u-image-contain u-image-default u-image-2" src="{{ asset('dist/images/oracle-removebg-preview.png')}}" alt="" data-image-width="259" data-image-height="194">
+                            </div>
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -50,7 +75,16 @@
             <div class="u-active u-carousel-item u-clearfix u-image u-shading u-section-2-1" data-image-width="1280" data-image-height="853">
                 <div class="u-clearfix u-sheet u-sheet-1">
                     <h2 class="u-subtitle u-text u-text-default u-text-1">OUR SERVICES</h2>
-                    <p class="u-large-text u-text u-text-variant u-text-2">Providing solutions for better work management</p>
+                    <center>
+                    <p class="service-p u-text u-text-variant" style="padding:10px">Our platform providing solutions for better work management:-
+                    </p>
+                       <p class="service-p u-text u-text-variant"> • Healthcare Sector</p>
+                      <p class="service-p u-text u-text-variant">  • Project Management Sector</p>
+                    <p class="service-p u-text u-text-variant">  • Asset Management Sector</p>
+                    <p class="service-p u-text u-text-variant"> • Business Development Sector</p>
+                    <p class="service-p u-text u-text-variant">  • Tourism Sector</p>
+                    <p class="service-p u-text u-text-variant">  • Cybersecurity</p>
+                    </center>
                 </div>
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-2" src="" data-image-width="5010" data-image-height="3200">
@@ -78,8 +112,9 @@
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-3" src="" data-image-width="4671" data-image-height="3737">
                 <div class="u-clearfix u-sheet u-sheet-1">
-                    <h1 class="u-text u-text-body-alt-color u-text-default u-text-1">UTILITIES</h1>
-                    <p class="u-large-text u-text u-text-body-alt-color u-text-variant u-text-2">Bringing necessity to the needs</p>
+                    <h1 class="u-text u-text-body-alt-color u-text-default u-text-1">ASSET MANAGEMENT SECTOR</h1>
+                    <p class="u-large-text u-text u-text-body-alt-color u-text-variant u-text-2">Contribute to systematic process to asset management
+                    </p>
                     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                         <div class="u-layout">
                             <div class="u-layout-row">
@@ -122,8 +157,9 @@
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-5" src="" data-image-width="1600" data-image-height="1200">
                 <div class="u-clearfix u-sheet u-sheet-1">
-                    <h1 class="u-text u-text-default u-text-1">TOURISM</h1>
-                    <p class="u-large-text u-text u-text-variant u-text-2">Towards advanced hotel management</p>
+                    <h1 class="u-text u-text-default u-text-1">TOURISM SECTOR</h1>
+                    <p class="u-large-text u-text u-text-variant u-text-2">Better place experience
+                    </p>
                     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                         <div class="u-layout">
                             <div class="u-layout-row">
@@ -144,8 +180,9 @@
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-6" src="" data-image-width="400" data-image-height="300">
                 <div class="u-clearfix u-sheet u-sheet-1">
-                    <h1 class="u-text u-text-default u-text-1">BUSINESS DEVELOPMENT</h1>
-                    <p class="u-large-text u-text u-text-variant u-text-2">Towards the sustainability and survivability of the business development</p>
+                    <h1 class="u-text u-text-default u-text-1">BUSINESS DEVELOPMENT SECTOR</h1>
+                    <p class="u-large-text u-text u-text-variant u-text-2">Towards the sustainability and survivability of the business development
+                    </p>
                     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                         <div class="u-layout">
                             <div class="u-layout-row">
@@ -166,8 +203,8 @@
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-7" src="" data-image-width="3888" data-image-height="2592">
                 <div class="u-clearfix u-sheet u-sheet-1">
-                    <h1 class="u-text u-text-default u-text-1">ENGINEERING &amp; DESIGN</h1>
-                    <p class="u-large-text u-text u-text-variant u-text-2">Towards advanced solutions for engineering through digitalization</p>
+                    <h1 class="u-text u-text-default u-text-1">CYBERSECURITY</h1>
+                    <p class="u-large-text u-text u-text-variant u-text-2"></p>
                     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                         <div class="u-layout">
                             <div class="u-layout-row">
@@ -188,8 +225,9 @@
             </div>
             <div class="skrollable skrollable-between u-align-center u-carousel-item u-clearfix u-image u-shading u-section-2-8" src="" data-image-width="3456" data-image-height="2304">
                 <div class="u-clearfix u-sheet u-sheet-1">
-                    <h1 class="u-text u-text-default u-text-1">PROJECT MANAGEMENT</h1>
-                    <p class="u-large-text u-text u-text-variant u-text-2">For better Operation &amp; Maintenance</p>
+                    <h1 class="u-text u-text-default u-text-1">PROJECT MANAGEMENT SECTOR</h1>
+                    <p class="u-large-text u-text u-text-variant u-text-2">For better Operation & Maintenance
+                    </p>
                     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
                         <div class="u-layout">
                             <div class="u-layout-row">
@@ -234,7 +272,8 @@
             </h2>
             <div class="main-row">
             <p class="u-large-text u-text u-text-variant u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="">
-                <span style="font-weight: 700;">SPHERE</span> enable you to monitor your work through digitalization in real time<br>
+                SPHERE enable you to monitor your work<br>
+                through digitalization in real time<br>
             </p>
             </div>
             <div class="main-row">
@@ -256,7 +295,9 @@
     <section class="u-align-center u-clearfix u-gradient u-valign-top u-section-4" id="carousel_aa93">
         <div class="u-align-center u-container-style u-expanded-width u-group u-image u-shading u-image-1" data-image-width="1280" data-image-height="853">
             <div class="u-container-layout u-container-layout-1">
-                <h1 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1750">Key Features</h1>
+                <h1 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1750">
+                    KEY MODULE FEATURES
+                </h1>
                 <div class="u-align-center u-layout-grid u-list u-list-1">
                     <div class="u-repeater u-repeater-1">
                         <div class="u-align-center u-container-style u-custom-item u-list-item u-palette-4-light-3 u-radius-30 u-repeater-item u-shape-round u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">

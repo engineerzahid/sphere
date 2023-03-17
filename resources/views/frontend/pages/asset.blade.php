@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{{ asset('dist/css/Asset.css') }}" />
     <section class="u-clearfix u-image u-shading u-section-1" id="sec-99ea" data-image-width="4980" data-image-height="3398">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <h3 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000">ASSET MANAGEMENT<span style="font-weight: 700;"></span>
+            <h3 class="u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000"><span style="font-weight: 700;">
+ASSET MANAGEMENT SECTOR
+</span>
             </h3>
             <img class="u-expanded-width u-image u-image-default u-image-1" src="{{ asset('dist/images/image5.png')}}" alt="" data-image-width="1314" data-image-height="470" data-animation-name="customAnimationIn" data-animation-duration="1000">
         </div>
@@ -18,10 +20,9 @@
                 <h1 style="text-align: left;">
                     <span style="line-height: 2.0;">Asset Management System</span>
                 </h1>
-                <p style="text-align: left;">
-            <span style="line-height: 2.0;">
-              Asset Management System Features:<br>Manage Asset<br>Preventive Maintenance Schedule<br>Business Categories
-            </span>   </p>
+                <div class="htcontent">
+                    <h3><strong>The Module:</strong></h3>
+                    <p>– Construction<br>– Utilities</p></div>
             </div>
 
             <div class="main-row">

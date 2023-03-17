@@ -8,6 +8,35 @@
     margin-right: 15px;
     margin-left: 15px;
 }
+.main-row-4{
+    width: 22.5%;
+    margin-right: 2%;
+    float: left;
+    background-color: #FFFFFF;
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+    border-color: #12cc69;
+    min-height: 150px;
+
+}
+.service-p{
+    color: #ffffff;
+    font-size: 156.25%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.main-row-4 img{
+    width:80%;
+}
 .row-6{
     width: 50%;
     float:left;

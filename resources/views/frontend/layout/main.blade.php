@@ -1,5 +1,4 @@
 @extends('frontend/layout/base')
-
 @section('body')
     <style>
         @media only screen and (max-width: 700px) {
@@ -41,8 +40,8 @@
                         </li><li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-3 u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="/#carousel_db7d" style="padding: 10px 0px;">Services</a><div class="u-nav-popup"><ul class="u-border-1 u-border-grey-30 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/health-care">Healthcare</a>
                                     </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/tourism">Tourism</a>
                                     </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/project-management">Project Management</a>
-                                    </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/construction">Construction</a>
-                                    </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/utilities">Utilities</a>
+                                    </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/business-management">Business Management</a>
+                                    </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/cyber-security">Cyber Security</a>
                                     </li><li class="u-nav-item"><a class="u-button-style u-grey-5 u-nav-link" href="/asset">Asset</a>
                                     </li></ul>
                             </div>
@@ -57,11 +56,11 @@
                                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/#carousel_61e5">About</a>
                                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/#carousel_09df">Contact</a>
                                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/#carousel_db7d">Services</a><div class="u-nav-popup"><ul class="u-border-1 u-border-grey-30 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/health-care">Healthcare</a>
-                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="tourism">Tourism</a>
-                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="project-management">Project Management</a>
-                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="construction">Construction</a>
-                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="utilities">Utilities</a>
-                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="asset">Asset</a>
+                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/tourism">Tourism</a>
+                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/project-management">Project Management</a>
+                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/construction">Construction</a>
+                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/cyber-security">Cyber Security</a>
+                                            </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/asset">Asset</a>
                                             </li></ul>
                                     </div>
                                 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="pricing">Pricing</a>

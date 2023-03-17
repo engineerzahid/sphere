@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/5910186136c1df8ab28e42d9d92cf6b94e9b777566a60ff572700fac3407528bbeba33778bc2bd05d35a388bf6532966b98f887c39d16938a85ed2_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/dist/images/tourism-topbg.jpg");
   background-position: 50% 50%;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 1004px;
-  height: 563px;
+  width: 100%;
+
   margin: 30px auto 60px;
 }
 

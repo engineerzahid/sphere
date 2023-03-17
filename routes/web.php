@@ -26,4 +26,6 @@ Route::controller(PageController::class)->group(function() {
     Route::get('/asset', 'assets')->name('asset');
     Route::get('/pricing', 'pricing')->name('pricing');
     Route::get('/sign-in', 'signin')->name('sign-in');
+    Route::get('/business-management', 'businessManagement')->name('business-management');
+    Route::get('/cyber-security', 'cyberSecurity')->name('cyber-security');
 });

@@ -1,11 +1,14 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/f00746f0664be02d0104f52e582d0e5be94d31fad360170be1a19dc691153acbe9c89bf02c03a203adab2f1d624370ff02e9e9eba2d7fd585429d7_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("/dist/images/prouct-topbg.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 746px;
+  min-height: 300px;
 }
+.u-sheet-head{
+     min-height: 200px;
+ }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
@@ -20,25 +23,25 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 615px;
+    min-height: 300px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 471px;
+    min-height: 300px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 353px;
+    min-height: 300px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 222px;
+    min-height: 200px;
   }
 } .u-section-2 {
   background-image: linear-gradient(#f1b5b8, #858e99);
@@ -46,6 +49,7 @@
 
 .u-section-2 .u-sheet-1 {
   min-height: 484px;
+  padding-bottom: 40px;
 }
 
 .u-section-2 .u-text-1 {

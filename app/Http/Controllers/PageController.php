@@ -51,5 +51,15 @@ class PageController extends Controller
     {
         return view('frontend/pages/signin');
     }
+    public function businessManagement()
+    {
+        return view('frontend/pages/business-management');
+    }
+
+    public function cyberSecurity()
+    {
+        return view('frontend/pages/cybersecurity');
+    }
+
 
 }

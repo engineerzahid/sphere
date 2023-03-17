@@ -2,7 +2,12 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("/dist/images/a88de0b0b278c1e7529c491a45afb856ae7cb5dd979a1834945ad55437b5fab12655da1c4d61e1eecf48fdaf868e5f236caec64f3aa98f1fb92484_1280.jpg");
   background-position: 50% 50%;
 }
-
+h3{
+    font-size: 22px;
+}
+.htcontent{
+    padding-left: 25px;
+}
 .u-section-1 .u-sheet-1 {
   min-height: 784px;
 }
@@ -23,8 +28,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 894px;
-  height: 491px;
+  width: 100%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
